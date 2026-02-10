@@ -75,7 +75,7 @@ app.post(
       }
 
       // Append other fields
-      formData.append("v", req.body.v || "1.1");
+      formData.append("v", req.body.v || "1.0");
       formData.append("t", req.body.t || "imhla10");
 
       console.log("Forwarding request to actual API...");
